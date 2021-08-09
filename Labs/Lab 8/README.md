@@ -1,13 +1,9 @@
-# Lab 8: Fuzz testing
+# Software Testing Lab 8
+Fuzz Testing
 
-這是簡單的 bmp format 灰階轉換程式，裡面好像有隱藏的弱點會讓程式出問題，麻煩你用模糊測試找到問題，並幫我修復他。
+Find the vulnerability in a simple RGB to Grey converter and fix it.
 
-繳交:學號.zip
+- poc : input that causes error
+- bmp_lib.c ： fixed code
+  - add //Fix in front of fixed code
 
-內容:
-- poc : 會造成問題的輸入
-- bmp_lib.c ： 你修復好的程式碼
-  - 所改的程式碼前面一行加個 //Fix
-- 學號.pdf : 裡面寫是啥原因造成這個問題的
-
-如果你想公開你修復好的程式碼，麻煩等作業繳交期限截止後，感謝。
